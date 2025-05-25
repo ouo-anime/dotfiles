@@ -1,0 +1,20 @@
+.thunar .view {
+    background-color: #1e1e1e;
+    color: #eeeeee;
+}
+.thunar .view:hover {
+    background-color: #4a235a;
+}
+.thunar .view:selected,
+.thunar .view:selected:focus {
+    background-color: #8e44ad;
+    color: #ffffff;
+}
+.thunar toolbar image {
+    -gtk-icon-transform: scale(0.5);
+}
+.thunar toolbar {
+    padding: 6px;
+}
+
+.thunar .view .rubberband {background-color: #8e44ad; border-color: whit}
